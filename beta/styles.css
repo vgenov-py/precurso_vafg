@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 a {
@@ -10,20 +11,29 @@ a {
 
 #wrap {
     background-color: black;
+    display: grid;
     width: 100%;
     position: fixed;
+    font-weight: 600;
 }
 
 #infinity_icon {
-    display: inline-table;
     float: left;
+    width: 40%;
     margin-left: 10%;
+}
+
+#table_links {
+    width: 30%;
 }
 
 #wrap_links {
     float: right;
-    text-align: right;
+    text-align: center;
+    width: 40%;
     margin-right: 10%;
-    margin-left: 30%;
-    width: 20%;
+}
+
+.wrap_links {
+    padding-right: 10%;
 }
