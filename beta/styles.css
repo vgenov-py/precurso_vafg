@@ -9,31 +9,41 @@ a {
     color: white;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #wrap {
     background-color: black;
-    display: grid;
-    width: 100%;
     position: fixed;
+    width: 100%;
     font-weight: 600;
+    margin: auto;
 }
 
-#infinity_icon {
-    float: left;
-    width: 40%;
-    margin-left: 10%;
+#left_wrap {
+    display: inline-table;
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
-#table_links {
-    width: 30%;
-}
-
-#wrap_links {
+#right_wrap {
+    padding-left: 0;
+    margin: 0;
+    width: 35%;
     float: right;
-    text-align: center;
-    width: 40%;
-    margin-right: 10%;
+    margin-right: 15%;
+    text-align: right;
 }
 
 .wrap_links {
-    padding-right: 10%;
+    display: inline;
+    padding-right: 5%;
+}
+
+.wrap_links:nth-of-type(4) {
+    padding-right: 0;
 }
